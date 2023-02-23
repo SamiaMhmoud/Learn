@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normlize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="nav">
+        <div class="container">
+            <a class="navbar-brand text-light logo" href="#">Elearn</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-list">
+                <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" target="_blank" href="#">python</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="#"> java</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" target="_blank" href="#">html</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="#">css</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="#">javascript</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="#">bootstrap</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="#">json</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light">About</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2 bg-transparent" type="search" placeholder="search" aria-label="Search">
+                <button class="btn btn-outline me-2 main-button text-white" type="submit">Search</button>
+            </form>
+            <form class="d-flex">
+                <button class="btn btn-outline main-button text-white" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Landing -->
+    <div id="carouselExampleIndicators" class="carousel slide slider-container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="slide-item carousel-item">
+            <img src="Images/333.webp" class="d-block w-100" height="550px" alt="pic1">
+            <div class="carousel-caption">
+              <h1>html</h1>
+              <a href="#" class="btn btn-danger" target="_blank">view this course</a>
+            </div>
+          </div>
+          <div class="slide-item carousel-item active ">
+            <img src="Images/7.webp" class="d-block w-100" height="550px" alt="pic2">
+            <div class="carousel-caption">
+              <h1>css</h1>
+              <a href="#" class="btn btn-primary" target="_blank">view this course</a>
+            </div>
+          </div>
+          <div class="slide-item carousel-item">
+            <img src="Images/555.webp" class="d-block w-100" height="550px" alt="pic3">
+            <div class="carousel-caption">
+              <h1>javascript</h1>
+              <a href="#" class="btn btn-info text-light" target="_blank">view this course</a>
+            </div>
+          </div>
+          <div class="slide-item carousel-item">
+            <img src="Images/777.webp" class="d-block w-100" height="550px" alt="pic4">
+            <div class="carousel-caption">
+              <h1>json</h1>
+              <a href="#" class="btn btn-secondary" target="_blank">view this course</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- About us -->
+    <div class="about pt-5 pb-5" id="about">
+        <div class="container d-flex align-items-center justify-content-between gap-lg-5">
+            <div class="text text-black-50">
+                <div class="main-title position-relative">
+                    <h2>About Us</h2>
+                    <p class="text-black-50 pb-2">Some Stuff About Us</p>
+                </div>
+                <p>Assumenda molestias blanditiis sapiente ex expedita, repudiandae optio nemo omnis. Ullam qui delectus incidunt voluptatem, quos illum at aspernatur ea modi incidunt voluptatem, quos illum at aspernatur ea modi autem.</p>
+                <button class="btn text-white page-btn fw-bold">Read More</button>
+            </div>
+            <div class="img d-none d-lg-block">
+                <img src="Images/kindpng_7877257.png" alt="" width="500px">
+            </div>
+        </div>
+    </div>
+    <!-- Our Courses -->
+    <div class="container">
+        <div class="main-title text-md-center pt-5 mb-md-5 position-relative">
+            <h2>Our Courses</h2>
+            <p class="text-black-50 pb-2">ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    <div class="accordion pb-5" id="accordionExample">
+        <div class="container">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button btn-outline-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    python programming language
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                    Python is powerful... and fast, plays well with others,runs everywhere, is friendly &amp; easy to learn, is Open.      </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button btn-outline-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    java programming language
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                    Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages.      </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button btn-outline-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    javascript programming language
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                    JavaScript is a scripting or programming language that allows you to implement complex features on web pages.       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lang">
+        <div class="container py-4">
+        <div class="row justify-content-between">
+            <div class="pt-5 col-lg-4  col-md-6">
+                <div class="card">
+                    <h3 class="text-center p-3 m-0 title">Python</h3>
+                    <div class="card-body">
+                        <h4 class="text-black-50 text-capitalize">try the code below from <a href="https://www.python.org/shell/" target="_blank">here</a></h4>
+                        <code class="text-info d-block" id="mypython">
+                            name = input('enter your name: '); print("Hello" + name)
+                        </code>
+                        <div class="btn btn-sm page-btn text-white ps-4 pe-4 p-1 fs-5 mt-2">
+                        copy
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 col-lg-4  col-md-6">
+                <div class="card">
+                    <h3 class="text-center p-3 m-0 title">Java</h3>
+                    <div class="card-body">
+                        <h4 class="text-black-50 text-capitalize">try the code below from <a href="https://www.python.org/shell/" target="_blank">here</a></h4>
+                        <code class="text-info d-block" id="mypython">
+                            System.out.println("Hello World!");
+                        </code>
+                        <div class="btn btn-sm page-btn text-white ps-4 pe-4 p-1 fs-5 mt-2">
+                        copy
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 col-lg-4  col-md-6">
+                <div class="card">
+                    <h3 class="text-center p-3 m-0 title">JavaScript</h3>
+                    <div class="card-body p-3 pb-0">
+                        <h4 class="text-black-50 text-capitalize">try the code below from <a href="https://www.python.org/shell/" target="_blank">here</a></h4>
+                        <code class="text-info d-block" id="mypython">
+                            console.log("Welcome to Programiz!");
+                        </code>
+                        <div class="btn btn-sm page-btn text-white ps-4 pe-4 p-1 fs-5 mt-2">
+                        copy
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="learn">
+        <div class="container">
+            <div class="main-title text-md-center pt-5 mb-md-5 position-relative">
+                <h2>Learn Now</h2>
+                <p class="text-black-50 pb-2">ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/2.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">HTML</h3>
+                            <p class="card-text">Html from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/4.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">CSS</h3>
+                            <p class="card-text">CSS from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/5.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">JavaScript</h3>
+                            <p class="card-text">JavaScript from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/features-02.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">Bootstrap</h3>
+                            <p class="card-text">Bootstrap from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/features-03.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">Java</h3>
+                            <p class="card-text">Java from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/portfolio-8.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">Python</h3>
+                            <p class="card-text">Python from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/gallery-3.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">C#</h3>
+                            <p class="card-text">C# from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-sm-12 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/gallery-5.jpg">
+                        <div class="card-body">
+                            <h3 class="card-title">PHP</h3>
+                            <p class="card-text">PHP from zero to hero</p>
+                            <button class="btn text-white page-btn fw-bold">Learn Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews pb-5">
+        <div class="main-title text-md-center pt-5 mb-md-5 position-relative">
+                <h2>Students Reviews</h2>
+                <p class="text-black-50 pb-2">What’s Our Customer Say</p>
+            </div>
+        <div class="container bg-white rounded p-0 pe-lg-5 position-relative">
+            <div class="right position-absolute fs-4 bg-white text-center rounded-circle shadow translate-middle-y"><i class="fas fa-angle-right"></i></div>
+            <div class="left position-absolute fs-4 bg-white text-center rounded-circle shadow translate-middle-y"><i class="fas fa-angle-left"></i></div>
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <img class="rounded-start" src="Images/xperson_3.jpg.pagespeed.ic.vkYYFTif7f.webp" alt="" style="width: 100%; height: 350px;">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="testimonial-content p-sm-4">
+                            <div class="star-rating text-warning fs-5 mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        <div class="rtin-content">
+                            <span class="mb-3 d-block pe-lg-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum natus autem sed, optio fugit unde nesciunt! Velit tempora quibusdam libero veniam, impedit alias, rerum ducimus eum nam accusantium in ipsa.</span>
+                        </div>
+                        <h3 class="item-title">Robert Blue</h3>
+                        <div class="item-subtitle">CEO, PSDBOSS</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="discount d-flex flex-wrap" id="discount">
+        <div class="image d-none d-lg-flex align-items-center justify-content-center position-relative text-white">
+            <div class="content text-center px-3">
+                <h2 class="fs-1 mb-4">We Have A Discount</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae
+                    ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique
+                    laborum dicta aperiam odit doloribus corporis.
+                </p>
+                <img src="Images/discount.png" alt="">
+            </div>
+        </div>
+    <div class="form flex-grow-1 flex-lg-grow-0 d-flex align-items-center justify-content-center py-5">
+        <div class="content w-75 text-center px-3">
+            <h2 class="fs-1 mb-4">Request A Discount</h2>
+            <form action="">
+                <input class="input d-block border-0 p-3 mb-3 w-100" type="text" placeholder="Your Name" name="name">
+                <input class="input d-block border-0 p-3 mb-3 w-100" type="email" placeholder="Your Email" name="email">
+                <input class="input d-block border-0 p-3 mb-3 w-100" type="text" placeholder="Your Phone" name="mobile">
+                <textarea class="input d-block border-0 p-3 mb-3 w-100" placeholder="Tell Us About Your Needs" name="message"></textarea>
+                <input type="submit" value="Send" class="w-100 border-0 text-white py-3">
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer class="py-5">
+        <div class="container">
+            <div class="row d-flex flex-wrap justify-content-between">
+                <div class="col-3 pe-3">
+                    <h4 class="fs-5 mb-3 text-white">Contact</h4>
+                    <p><strong>Address: </strong>562 wellington road, street 32, san Francisco</p>
+                    <p><strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+                    <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+                    <div class="follow mt-3 text-white">
+                        <h4 class="fs-5 mb-3">Follow Us</h4>
+                        <ul class="icons p-0 d-flex">
+                            <li class="rounded overflow-hidden text-center me-1"><i class="fab fa-facebook-f"></i></li>
+                            <li class="rounded overflow-hidden text-center me-1"><i class="fab fa-twitter"></i></li>
+                            <li class="rounded overflow-hidden text-center me-1"><i class="fab fa-linkedin-in"></i></li>
+                            <li class="rounded overflow-hidden text-center me-1"><i class="fab fa-pinterest-p"></i></li>
+                            <li class="rounded overflow-hidden text-center me-1"><i class="fab fa-instagram"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 d-flex flex-column ps-5">
+                    <h4 class="fs-5 mb-3 text-white">About</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Praivacy Policy</a>
+                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="col-3 d-flex flex-column">
+                    <h4 class="fs-5 mb-3 text-white">My Account</h4>
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                </div>
+                <div class="col-3 install d-flex flex-column">
+                    <h4 class="fs-5 mb-3 text-white">Install App</h4>
+                    <p>Form App Store or Google Play</p>
+                    <div class="img-install d-flex">
+                        <img class="rounded my-3 me-2" src="Images/app.jpg" alt="">
+                        <img class="rounded my-3" src="Images/play.jpg" alt="">
+                    </div>
+                    <p>Secured Payment Geteways</p>
+                    <img src="Images/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
